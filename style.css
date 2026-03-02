@@ -1,7 +1,77 @@
-h1{
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Contenedor general */
+header, main, footer {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
     text-align: center;
 }
 
-footer{
-    
+/* Secciones */
+section {
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Títulos */
+h1, h2 {
+    margin-top: 0;
+}
+
+/* Lista de tecnologías */
+ul {
+    padding-left: 20px;
+}
+
+.tecnologias{
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    list-style-type: none; 
+    padding: 0; 
+    margin-bottom: 20px;
+   
+}
+
+.tecnologias li { 
+    background: #ecf0f1; 
+    color: #2c3e50;
+    padding: 8px 15px; 
+    border-radius: 5px; 
+    font-weight: 600; 
+    font-size: 0.9em;
+}
+
+/* Links */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    color: #777;
+    font-size: 0.9em;
 }
