@@ -75,3 +75,29 @@ footer {
     color: #777;
     font-size: 0.9em;
 }
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        margin-top: 20px;
+    }
+   
+    .tecnologias {
+        gap: 8px;
+    }
+
+    .tecnologias li {
+        padding: 6px 12px;
+        font-size: 0.85em;
+    }
+}
+
